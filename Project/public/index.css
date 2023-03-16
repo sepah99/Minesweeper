@@ -1,0 +1,35 @@
+html, body {
+    font-family: Montserrat, sans-serif;
+    height: 100%;
+    background-color: #121212;
+    color: #dfdada;
+  }
+
+  /* .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  .game-container {
+    display: grid;
+    width: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0;
+  }
+  
+.square{
+    border: 2px solid #251e87;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc0df;
+    color: #113507;
+}
+
+.square:hover{
+    background-color: #faacd3;
+}
+
